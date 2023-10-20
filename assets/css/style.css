@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --------------------------------------------------------------------- */
+.parent {
+    height: 100vh;
+    width: 100vw;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.child{
+    display: flex;
+height: 50vh;
+width: 50vw; 
+border: 1px solid grey;
+justify-content: center;
+align-items: center;
+}
+.flag{
+    display: flex;
+    height: 25vh;
+    width: 25vw;
+}
+/* --------------------------------------------------------------------- */
+#france{
+    justify-content: center;
+    align-items: center;
+.part1{
+    width: 8.33vw;
+    height: 25vh;
+    background-color: red;
+}
+.part2{
+    width: 8.33vw;
+    height: 25vh;
+    background-color: white;
+}
+.part3{
+    width: 8.33vw;
+    height: 25vh;
+    background-color: blue;
+}}
+/* --------------------------------------------------------------------- */
+#germany{
+    justify-content: center;
+    align-items: center;
+    .part1{
+        width: 8.33vw;
+        height: 25vh;
+        background-color: black;
+    }
+    .part2{
+        width: 8.33vw;
+        height: 25vh;
+        background-color: yellow;
+    }
+    .part3{
+        width: 8.33vw;
+        height: 25vh;
+        background-color: red;
+    }
+}
+/* --------------------------------------------------------------------- */
+#italy{
+    justify-content: center;
+    align-items: center;
+    .part1{
+        width: 8.33vw;
+        height: 25vh;
+        background-color: green;
+    }
+    .part2{
+        width: 8.33vw;
+        height: 25vh;
+        background-color: white;
+    }
+    .part3{
+        width: 8.33vw;
+        height: 25vh;
+        background-color: red;
+    }
+}
+/* --------------------------------------------------------------------- */
+#syria{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .part1{
+        height: 8.33vh;
+        width: 25vw;
+        background-color: red;
+    }
+    .part2{
+        height: 8.33vh;
+        width: 25vw;
+        background-color: white; 
+    }
+    .part3{
+        height: 8.33vh;
+        width: 25vw;
+        background-color: black;
+    }
+}
+#syria .part2 p{
+    font-size: 5vw;
+    color: green;
+    text-align: center;
+    background: none;
+    
+}
+#syria .part2 span{
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+    background: none;
+    
+}
+/* --------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
